@@ -81,15 +81,6 @@ The script will randomly choose a wallpaper and save the last one in a JSON file
   - Saves the current wallpaper index and timestamp in a JSON file.
 
 ---
-
-## Optional Improvements
-
-- Automatically rotate wallpapers at regular intervals.
-- Add support for additional Linux desktop environments.
-- GUI to select folder and set interval.
-
----
-
 ## Scripts
 
 - `wallpaper_linux.py` – Linux version of the script
