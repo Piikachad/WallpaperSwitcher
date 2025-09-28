@@ -41,7 +41,7 @@ This script also remembers the last wallpaper used to avoid repeating it consecu
 3. Run the script:
 
 ```bash
-python3 WallaperSwitcher.py
+python3 WallpaperSwitcher.py
 ```
 
 The script will detect your desktop environment and set a random wallpaper from your folder.
@@ -56,7 +56,7 @@ The script will detect your desktop environment and set a random wallpaper from 
 4. Run the script:
 
 ```powershell
-python WallaperSwitcherWindows.py
+python WallpaperSwitcherWindows.py
 ```
 
 The script will randomly choose a wallpaper and save the last one in a JSON file to avoid repeating it consecutively.
@@ -83,7 +83,7 @@ The script will randomly choose a wallpaper and save the last one in a JSON file
 ---
 ## Scripts
 
-- `WallaperSwitcher.py` – Linux version of the script
-- `WallaperSwitcherWindows.py` – Windows version of the script
+- `WallpaperSwitcher.py` – Linux version of the script
+- `WallpaperSwitcherWindows.py` – Windows version of the script
 
 ---
