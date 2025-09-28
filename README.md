@@ -83,11 +83,7 @@ The script will randomly choose a wallpaper and save the last one in a JSON file
 ---
 ## Scripts
 
-- `wallpaper_linux.py` – Linux version of the script
-- `wallpaper_windows.py` – Windows version of the script
+- `WallaperSwitcher.py` – Linux version of the script
+- `WallaperSwitcherWindows.py` – Windows version of the script
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
