@@ -37,11 +37,11 @@ This script also remembers the last wallpaper used to avoid repeating it consecu
 ### Linux
 
 1. Place your wallpapers in a folder (e.g., `/home/username/Images/Wallpapers`).
-2. Update the `WALLPAPER_FOLDER` variable in `wallpaper_linux.py` with the absolute path to your folder.
+2. Update the `WALLPAPER_FOLDER` variable in `WallpaperSwitcher.py` with the absolute path to your folder.
 3. Run the script:
 
 ```bash
-python3 wallpaper_linux.py
+python3 WallaperSwitcher.py
 ```
 
 The script will detect your desktop environment and set a random wallpaper from your folder.
@@ -51,12 +51,12 @@ The script will detect your desktop environment and set a random wallpaper from 
 ### Windows
 
 1. Place your wallpapers in a folder (e.g., `C:\Users\user\Pictures\Wallpapers`).
-2. Update the `WALLPAPER_FOLDER` variable in `wallpaper_windows.py` with the absolute path to your folder.
+2. Update the `WALLPAPER_FOLDER` variable in `WallpaperSwitcherWindows.py` with the absolute path to your folder.
 3. Set the path for the state file (e.g., `C:\Users\user\Documents\current_wallpaper.json`).
 4. Run the script:
 
 ```powershell
-python wallpaper_windows.py
+python WallaperSwitcherWindows.py
 ```
 
 The script will randomly choose a wallpaper and save the last one in a JSON file to avoid repeating it consecutively.
